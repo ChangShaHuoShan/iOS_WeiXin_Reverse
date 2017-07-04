@@ -1,0 +1,10 @@
+Package: com.yuancan.sendimage
+Name: WX_SendImage
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: YuanCan
+Author: YuanCan
+Section: Tweaks
+Version: 0.0.1-16
+Installed-Size: 136
