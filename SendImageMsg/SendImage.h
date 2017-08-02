@@ -5,6 +5,8 @@
 @interface SharePreConfirmView : NSObject
 @end
 
+
+
 @interface ForwardMessageLogicController : NSObject 
 - (void)ForwardMsgList:(id)arg1 ToContact:(id)arg2;
 @end
@@ -16,6 +18,7 @@
 @property(retain, nonatomic) NSString *m_nsToUsr;       //接收者
 @property(nonatomic) unsigned int m_uiMessageType;      //消息类型
 @property(retain, nonatomic) NSData *m_dtImg; 
+@property(nonatomic) unsigned long m_uiStatus; // @synthesize m_uiStatus;
 
 - (id)initWithMsgType:(int)arg1 nsFromUsr:(id)arg2;
 @end
